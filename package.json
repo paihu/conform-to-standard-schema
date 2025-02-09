@@ -1,0 +1,34 @@
+{
+  "name": "conform-to-standard-schema",
+  "version": "0.0.1",
+  "description": "Conform helpers for integrating with standard schema",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "typecheck": "tsc"
+  },
+  "keywords": [],
+  "author": "paihu",
+  "license": "MIT",
+  "packageManager": "pnpm@10.2.0",
+  "peerDependencies": {
+    "@conform-to/dom": ">= 1.0.0",
+    "@standard-schema/spec": "^1.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@conform-to/dom": ">= 1.0.0",
+    "@standard-schema/spec": "^1.0.0",
+    "@types/node": "^18.19.75",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3",
+    "valibot": "1.0.0-beta.15",
+    "vitest": "^3.0.5",
+    "zod": "^3.24.1"
+  }
+}

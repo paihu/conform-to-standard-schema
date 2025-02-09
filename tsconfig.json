@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "Preserve",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "noErrorTruncation": true,
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "noEmit": true
+  },
+  "include": ["**/*.ts", "tests/**/*.ts", "tsup.config.ts"]
+}
